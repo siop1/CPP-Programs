@@ -1,0 +1,10 @@
+A virtual function(also known as virtual methods) is a member function that is declared within a base class and is re-defined (overridden) by a derived class. When you refer to derived class object using a pointer or a reference to the base class, you can call a virtual functon for that object and execute the derived class's version of the method.
+[program that appears to be calling a function of one class may in reality calling a function of different class]
+
+==> Virtual is a keyword in C++.
+==> A virtual function is re=defined in derived class.
+==> When a virtual class is defined in base class, then the pointer to base class is created. Now, on the basis of type of object assigned the respective class function is created.
+
+
+==========================
+A pure virtual function is a function in C++ for which we need not to write any function definition and only we have to declare it. It is declared by assigning zero.
